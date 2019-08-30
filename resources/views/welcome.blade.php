@@ -12,6 +12,7 @@
     @include('template.nav-menu')
 
     <div class="app-content container center-layout mt-2">
+        TES
        @yield('content')
     </div>
     @include('template.foot')
