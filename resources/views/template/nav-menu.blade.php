@@ -32,7 +32,7 @@
   <div class="header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-dark navbar-without-dd-arrow navbar-shadow" role="navigation" data-menu="menu-wrapper">
     <div class="navbar-container main-menu-content container center-layout" data-menu="menu-container">
       <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
-        <li class="nav-item"><a class="nav-link" href="#"><i class="icon-home"></i><span data-i18n="nav.dash.main">Dashboard</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="icon-home"></i><span data-i18n="nav.dash.main">Home</span></a></li>
         <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i class="icon-bulb"></i><span data-i18n="nav.starter_kit.main">Starter kit</span></a>
           <ul class="dropdown-menu">
             <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">1 column</a>

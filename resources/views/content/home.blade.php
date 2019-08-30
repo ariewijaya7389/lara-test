@@ -15,7 +15,8 @@
           </div>
         </div>
       </div>
-      <div class="content-body"><section class="row">
+      <div class="content-body">
+          <section class="row">
   <div class="col-sm-12">
       <!-- Kick start -->
       <div id="kick-start" class="card">
