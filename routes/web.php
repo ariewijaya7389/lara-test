@@ -14,3 +14,4 @@
 Route::get('/', function () {
     return view('content.home');
 });
+Route::get('profil', 'ProfilController@index');
