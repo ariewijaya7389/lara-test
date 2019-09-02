@@ -79,32 +79,23 @@
                     <li class="dropdown-divider"></li>
                     <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Fixed navigation</a>
                     </li>
-                    <li class="dropdown-divider"></li>
-                    <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Fixed layout</a>
-                    </li>
-                    <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Boxed layout</a>
-                    </li>
-                    <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Static layout</a>
-                    </li>
-                    <li class="dropdown-divider"></li>
-                    <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Light layout</a>
-                    </li>
-                    <li class="active" data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Dark
-                            layout</a>
-                    </li>
+
                 </ul>
             </li>
 
             <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#"
                     data-toggle="dropdown"><i class="icon-support"></i><span>See Our...</span></a>
                 <ul class="dropdown-menu">
-                    <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Teachers and Staffs</a>
+                    <li data-menu=""><a class="dropdown-item" href="{{url('teacher')}}" data-toggle="dropdown">Teachers
+                            and Staffs</a>
                     </li>
-                    <li data-menu=""><a class="dropdown-item" href="#" data-toggle="dropdown">Students</a>
+                    <li data-menu=""><a class="dropdown-item" href="{{url('student')}}"
+                            data-toggle="dropdown">Students</a>
                     </li>
                 </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#"><i class="icon-notebook"></i><span>Contact Us!</span></a>
+            <li class="nav-item"><a class="nav-link" href="{{url('contact')}}"><i
+                        class="icon-notebook"></i><span>Contact Us!</span></a>
             </li>
         </ul>
     </div>

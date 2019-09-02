@@ -14,4 +14,8 @@
 Route::get('/', function () {
     return view('content.home');
 });
+
 Route::get('profil', 'ProfilController@index');
+Route::get('teacher', 'SeeourController@indexTeacher');
+Route::get('student', 'SeeourController@indexStudent');
+Route::get('contact', 'ContactController@index');
